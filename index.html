@@ -1,0 +1,258 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <!-- For Bootstrap responsiveness -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Roboto+Condensed" rel="stylesheet">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Le Wagon Middleman boilerplate</title>
+
+    <link href="stylesheets/all.css" rel="stylesheet" />
+    <script src="javascripts/all.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Leave those next 4 lines if you care about users using IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body class="index">
+
+    <div class="navbar-wagon">
+  <!-- Logo -->
+<a class="navbar-wagon-brand" href="/">    <img src="images/lewagon.png" />
+</a>
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+
+    <!-- Search form -->
+    <form action="" class="navbar-wagon-search">
+      <input type="text" class="navbar-wagon-search-input" placeholder="Search something">
+      <button type="submit" class="navbar-wagon-search-btn">
+        <i class="fa fa-search"></i>
+      </button>
+    </form>
+
+    <!-- Text link -->
+    <a class="navbar-wagon-item navbar-wagon-link" href="https://www.lewagon.com">Wagon</a>
+
+    <!-- Text link -->
+    <a class="navbar-wagon-item navbar-wagon-link" href="team.html">Team</a>
+
+    <!-- Notification link-->
+    <a href="" class="navbar-wagon-item navbar-wagon-link">
+      <div class="badge-container">
+        <i class="fa fa-envelope-o"></i>
+        <div class="badge badge-blue">3</div>
+      </div>
+    </a>
+
+    <!-- Profile picture and dropdown -->
+    <div class="navbar-wagon-item">
+      <div class="dropdown">
+        <img src="http://placehold.it/50x50" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
+        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Log Out</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Button (call-to-action) -->
+    <a href="" class="navbar-wagon-item navbar-wagon-button btn">Post stuff</a>
+  </div>
+
+  <!-- Dropdown appearing on mobile only -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">Some mobile link</a></li>
+        <li><a href="#">Other one</a></li>
+        <li><a href="#">Other one</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+        <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/background.jpg');">
+     <div class="banner-content">
+        <h1>WELCOME HOME</h1>
+        <p>Rent unique places to stay from local hosts in 190+ countries.</p>
+        <button type="button" class="btn btn-primary btn-lg">how it works</button>
+    </div>
+  </div>
+
+  <div class="features text-center padded">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+          <img class="img-width" src="images/globe.png" />
+          <h2>Discover the world</h2>
+          <p>The earth is your new home.</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+        <img class="img-width" src="images/dollar.png" />
+         <h2>Pay online</h2>
+         <p>No cash issues anymore.</p>
+       </div>
+       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+       <img class="img-width" src="images/beer.png" />
+        <h2>Meet people</h2>
+        <p>Discover new culture and lifestyle.</p>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+      <img class="img-width" src="images/heart.png" />
+        <h2>Share and love</h2>
+        <p>Join a community you will love.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: url('https://a4.odistatic.net/images/landingpages/vacation/640x480/paris_640x480.jpg');">
+        <div class="card-category">Paris, France</div>
+        <div class="card-description">
+          <h2>Seb's home</h2>
+          <p>Charming room in Montmartre</p>
+        </div>
+        <img class="card-user avatar avatar-large" src="images/seb.jpg" />
+        <a class="card-link" href="flats/seb.html"></a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: url('https://www.leonardo-hotels.fr/Octopus/Upload/images/Pages/london-1-.jpg');">
+        <div class="card-category">London, UK</div>
+        <div class="card-description">
+          <h2>Romain's home</h2>
+          <p>Nice flat in Piccadilly</p>
+        </div>
+        <img class="card-user avatar avatar-large" src="images/romain.jpeg" />
+        <a class="card-link" href="flats/romain.html"></a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: url('https://static1.squarespace.com/static/52b8bc8de4b089a76bb35de5/t/56201b90e4b03bf3899844fe/1444944807678/Family+Vacation+in+London+%7C+London+Vacation+Photographer');">
+        <div class="card-category">London, UK</div>
+        <div class="card-description">
+          <h2>Anne's home</h2>
+          <p>Nice flat in Piccadilly</p>
+        </div>
+        <img class="card-user avatar avatar-large" src="images/anne.jpg" />
+        <a class="card-link" href="flats/anne.html"></a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: url('http://www.idesignarch.com/wp-content/uploads/Contemporary-Luxury-Home-LA_9.jpeg');">
+        <div class="card-category">Los Angeles, CA</div>
+        <div class="card-description">
+          <h2>Del's home</h2>
+          <p>pool and bitches</p>
+        </div>
+        <img class="card-user avatar avatar-large" src="images/moi.jpg" />
+        <a class="card-link" href="flats/Delphine.html"></a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: url('https://s-media-cache-ak0.pinimg.com/originals/62/df/30/62df30bbb46187a810775207912afbe9.jpg');">
+        <div class="card-category">Catland, CA</div>
+        <div class="card-description">
+          <h2>Gruik's home</h2>
+          <p>kitten</p>
+        </div>
+        <img class="card-user avatar avatar-large" src="images/relou.jpg" />
+        <a class="card-link" href="flats/Gruik.html"></a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: url('http://sahelvoyages.com.tn/images/voyages_organises/1456216677/image_1456216697.jpg');">
+        <div class="card-category">Beyrouth, LI</div>
+        <div class="card-description">
+          <h2>Guilaine's home</h2>
+          <p>Enjoy</p>
+        </div>
+        <img class="card-user avatar avatar-large" src="images/gui.jpg" />
+        <a class="card-link" href="flats/Guilaine.html"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <div id= "newsletter-grey">
+      <div class="container text-center padded">
+        <h1>Get news from us</h1>
+        <p>Leave us your mail and get news from us</p>
+        <form class="form-inline">
+          <div class="form-group">
+          <label for="exampleInputEmail2"></label>
+            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="bob@gmail.com">
+          </div>
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <div id="map" style="width: 100%; height: 400px;"></div>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+    <script type="text/javascript">
+      var myLatlng = new google.maps.LatLng(48.8655909, 2.378983);
+
+      var myOptions = {
+        zoom: 16,
+        center: myLatlng,
+        scrollwheel: false,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+  styles: [{"featureType":"poi","elementType":"labels.text.fill","stylers":[{"color":"#747474"},{"lightness":"23"}]},{"featureType":"poi.attraction","elementType":"geometry.fill","stylers":[{"color":"#f38eb0"}]},{"featureType":"poi.government","elementType":"geometry.fill","stylers":[{"color":"#ced7db"}]},{"featureType":"poi.medical","elementType":"geometry.fill","stylers":[{"color":"#ffa5a8"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#c7e5c8"}]},{"featureType":"poi.place_of_worship","elementType":"geometry.fill","stylers":[{"color":"#d6cbc7"}]},{"featureType":"poi.school","elementType":"geometry.fill","stylers":[{"color":"#c4c9e8"}]},{"featureType":"poi.sports_complex","elementType":"geometry.fill","stylers":[{"color":"#b1eaf1"}]},{"featureType":"road","elementType":"geometry","stylers":[{"lightness":"100"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"},{"lightness":"100"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffd4a5"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffe9d2"}]},{"featureType":"road.local","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"weight":"3.00"}]},{"featureType":"road.local","elementType":"geometry.stroke","stylers":[{"weight":"0.30"}]},{"featureType":"road.local","elementType":"labels.text","stylers":[{"visibility":"on"}]},{"featureType":"road.local","elementType":"labels.text.fill","stylers":[{"color":"#747474"},{"lightness":"36"}]},{"featureType":"road.local","elementType":"labels.text.stroke","stylers":[{"color":"#e9e5dc"},{"lightness":"30"}]},{"featureType":"transit.line","elementType":"geometry","stylers":[{"visibility":"on"},{"lightness":"100"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#d2e7f7"}]}] // TODO: replace [] by array from https://snazzymaps.com/
+};
+
+var map = new google.maps.Map(document.getElementById('map'), myOptions);
+var marker = new google.maps.Marker({
+  position: myLatlng,
+  map: map,
+  title: "You are here!"
+});
+</script>
+    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+
+
+     <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-4">
+            <ul class="list-inline">
+              <li><a href=""><i class="fa fa-youtube"></i></a></li>
+              <li><a href=""><i class="fa fa-instagram"></i></a></li>
+              <li><a href=""><i class="fa fa-facebook"></i></a></li>
+              <li><a href=""><i class="fa fa-twitter"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-xs-8 text-right">
+            <p>This is a Airbnb Home challenge @ LeWagon</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+  </body>
+</html>
