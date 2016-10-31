@@ -1,0 +1,51 @@
+#flat-description{
+  background-color: $gray-lighter;
+}
+
+.banner_flat{
+ color: white;
+  text-align: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: none;
+  background-size: cover;
+}
+
+.padded_flat{
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.btn-flat{
+  width: 100%;
+}
+
+
+.form_flat{
+  background-color: $gray-lighter;
+  padding: 10px;
+}
+
+.stars li{
+  list-style-type: none;
+}
+
+i.fa.fa-star{
+  font-size: 20px;
+  padding-right: 0;
+}
+
+.header-flat-star{
+  padding-top: 10px;
+}
+
+.full_star{
+  color: $blue;
+}
+
+.empty_star{
+  color: $gray;
+}
+

@@ -8,11 +8,11 @@
 
 #footer a{
   color: black;
+  &hover{
+  color: yellow;
+  }
 }
 
-#footer a:hover{
-  color: yellow;
-}
 
 .list-inline>li{
   padding-right: 5px;
@@ -24,13 +24,13 @@
   padding-right: 17px;
 }
 
-#footer ul {
+#footer p {
+  margin-top: 17px;
+  ul {
     margin-top: 10px;
+  }
 }
 
-#footer p {
-    margin-top: 17px;
-}
 p {
     margin: 0 0 10px;
 }

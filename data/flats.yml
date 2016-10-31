@@ -1,0 +1,61 @@
+seb:
+  owner_name: Sebastien Saunier
+  picture: https://a4.odistatic.net/images/landingpages/vacation/640x480/paris_640x480.jpg
+  owner_picture: seb.jpg
+  name: Seb's home
+  summary: Charming room in Montmartre
+  city: Paris, France
+  maximum_number_of_guests: 3
+  Bathrooms: 1
+  Bed: 2
+romain:
+  owner_name: Romain Paillard
+  picture: https://www.leonardo-hotels.fr/Octopus/Upload/images/Pages/london-1-.jpg
+  owner_picture: romain.jpeg
+  name: Romain's home
+  summary: Nice flat in Piccadilly
+  city: London, UK
+  maximum_number_of_guests: 2
+  Bathrooms: 1
+  Bed: 1
+anne:
+  owner_name: Romain Paillard
+  picture: https://static1.squarespace.com/static/52b8bc8de4b089a76bb35de5/t/56201b90e4b03bf3899844fe/1444944807678/Family+Vacation+in+London+%7C+London+Vacation+Photographer
+  owner_picture: anne.jpg
+  name: Anne's home
+  summary: Nice flat in Piccadilly
+  city: London, UK
+  maximum_number_of_guests: 5
+  Bathrooms: 2
+  Bed: 3
+Delphine:
+  owner_name: Del Martinache
+  picture: http://www.idesignarch.com/wp-content/uploads/Contemporary-Luxury-Home-LA_9.jpeg
+  owner_picture: moi.jpg
+  name: Del's home
+  summary: pool and bitches
+  city: Los Angeles, CA
+  maximum_number_of_guests: 8
+  Bathrooms: 3
+  Bed: 5
+Gruik:
+  owner_name: Gruiky
+  picture: https://s-media-cache-ak0.pinimg.com/originals/62/df/30/62df30bbb46187a810775207912afbe9.jpg
+  owner_picture: relou.jpg
+  name: Gruik's home
+  summary: kitten
+  city: Catland, CA
+  maximum_number_of_guests: 5
+  Bathrooms: 1
+  Bed: 3
+Guilaine:
+  owner_name: Guilaine
+  picture: http://sahelvoyages.com.tn/images/voyages_organises/1456216677/image_1456216697.jpg
+  owner_picture: gui.jpg
+  name: Guilaine's home
+  summary: Enjoy
+  city: Beyrouth, LI
+  maximum_number_of_guests: 5
+  Bathrooms: 2
+  Bed: 3
+
