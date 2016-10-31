@@ -2,18 +2,7 @@
 title: Le Wagon Middleman boilerplate
 ---
 
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Airbnb home</title>
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:300,400,500,700">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
 
-  </head>
-
-  <body>
 
     <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/background.jpg');">
      <div class="banner-content">
@@ -27,22 +16,22 @@ title: Le Wagon Middleman boilerplate
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-          <%= image_tag "globe.png"%>
+          <%= image_tag "globe.png", class:"img-width"%>
           <h2>Discover the world</h2>
           <p>The earth is your new home.</p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-        <%= image_tag "dollar.png"%>
+        <%= image_tag "dollar.png", class:"img-width"%>
          <h2>Pay online</h2>
          <p>No cash issues anymore.</p>
        </div>
        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-       <%= image_tag "beer.png"%>
+       <%= image_tag "beer.png", class:"img-width"%>
         <h2>Meet people</h2>
         <p>Discover new culture and lifestyle.</p>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-      <%= image_tag "heart.png"%>
+      <%= image_tag "heart.png", class:"img-width"%>
         <h2>Share and love</h2>
         <p>Join a community you will love.</p>
       </div>
@@ -132,7 +121,4 @@ var marker = new google.maps.Marker({
 });
 </script>
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-  </body>
-</html>
+
